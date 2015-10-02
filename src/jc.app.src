@@ -1,0 +1,14 @@
+{application, jc,
+ [
+  {description, "An Erlang jc library"},
+  {vsn, "1"},
+  {modules, [
+             jc
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
